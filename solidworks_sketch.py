@@ -2,8 +2,10 @@ import openai
 from solidworks import SOLIDWORKS
 import speech_recognition as sr
 
-# Request the user to input their OpenAI API key
-api_key = input("Please enter your OpenAI API key: ")
+# Read the API key from the config file
+config = configparser.ConfigParser()
+config.read("config.ini")
+api_key = config["OPENAI"]["API_KEY"]
 
 # Set the API key
 openai.api_key = api_key
