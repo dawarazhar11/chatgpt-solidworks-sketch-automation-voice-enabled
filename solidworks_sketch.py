@@ -2,8 +2,11 @@ import openai
 from solidworks import SOLIDWORKS
 import speech_recognition as sr
 
-# Replace 'your_api_key' with your actual ChatGPT API key
-openai.api_key = "your_api_key"
+# Request the user to input their OpenAI API key
+api_key = input("Please enter your OpenAI API key: ")
+
+# Set the API key
+openai.api_key = api_key
 
 sw_app = SOLIDWORKS()
 sw_app.connect()
