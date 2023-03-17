@@ -2,4 +2,4 @@ openai
 pywin32
 SpeechRecognition
 PyAudio
-pySW
+-e ./pySldWrap
