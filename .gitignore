@@ -1,7 +1,6 @@
-*.ss~
-*.ss#*
-.#*.ss
-
-*.scm~
-*.scm#*
-.#*.scm
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
