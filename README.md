@@ -12,8 +12,8 @@ The Python script `solidworks_sketch.py` listens to verbal commands, interprets 
 
 2. Install the required Python packages:
 
-```bash
-pip install -r requirements.txt
+"```bash
+pip install -r requirements.txt"
 
 3. Copy the solidworks.py file from the pySW repository into your project folder.
 
